@@ -1,0 +1,18 @@
+.options{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 15px;
+    color: grey !important;
+    cursor: pointer;
+}
+.options__underline{
+    font-weight: bold;
+    color: blue !important;
+    border-bottom: 2px solid blue;
+}
+
+.options__icons{
+    font-size: 20px !important;
+    margin-right: 3px;
+}
