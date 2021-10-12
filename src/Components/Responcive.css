@@ -1,0 +1,41 @@
+@media (max-width:630px) {
+    .home__body__logo{
+        width: 200px;
+        object-fit: contain;
+    }
+    .search__box{
+        width: 85vw;
+    }
+    .home__body__buttons{
+        width: 300px;
+    }
+    .searchpage__part1{
+        flex-direction: column;
+    }
+    .searchpage__header__logo{
+        margin-bottom: 20px;
+    }
+    .searchpage__header__icons{
+        display: none;
+    }
+    .serachpage__header__options{
+        overflow-x: scroll;
+        padding-left:10px ;
+        padding-right:10px ;
+    }
+    .searchpage__body{
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    .serachpage__header__options{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .searchpage__result__title{
+        font-size: 20px !important;
+    }
+    .searchpage__result__snippet,.searchpage__time{
+        font-size: 14px;
+    }
+}

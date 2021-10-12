@@ -16,6 +16,7 @@ import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import ImageIcon from '@mui/icons-material/Image';
 import BookIcon from '@mui/icons-material/Book';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import './Responcive.css'
 
 
 function SearchPage() {

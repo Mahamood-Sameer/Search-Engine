@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Components/Home';
 import SearchPage from './Components/SearchPage';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import "./Components/Responcive.css"
 
 function App() {
   return (
