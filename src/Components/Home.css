@@ -96,8 +96,7 @@
     border: 1px solid lightgray !important;
 }
 .drive__link{
-    display: flex;
-    align-items: center;
+    width: 100%;
     text-decoration: none;
     color: black !important;
 }

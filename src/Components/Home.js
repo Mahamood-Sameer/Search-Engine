@@ -122,9 +122,16 @@ function Home() {
         <MenuItem>
           <GoogleIcon className="dialouge__opts" /> Search
         </MenuItem>
-        <MenuItem>
-          <a href="https://mahamood-sameer.github.io/Drive/" target="_blank" className="drive__link"><AddToDriveIcon className="dialouge__opts" /> Drive</a>
-        </MenuItem>
+        <a
+          href="https://mahamood-sameer.github.io/Drive/"
+          target="_blank"
+          rel="noreferrer"
+          className="drive__link"
+        >
+          <MenuItem>
+            <AddToDriveIcon className="dialouge__opts" /> Drive
+          </MenuItem>
+        </a>
         <MenuItem>
           <EmailIcon className="dialouge__opts" /> Gmail
         </MenuItem>
@@ -147,7 +154,7 @@ function Home() {
           Gmeet
         </MenuItem>
         <center>
-        <Button className="more_from__google">More from Google</Button>
+          <Button className="more_from__google">More from Google</Button>
         </center>
       </Menu>
     </div>
