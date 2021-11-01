@@ -15,6 +15,9 @@
 .home__header__navopts{
     margin: 10px;
 }
+.app{
+    cursor: pointer;
+}
 .home__body{
     margin-top: 100px;
     display: flex;
@@ -81,4 +84,20 @@
 .home__footer__create__icon{
     font-size: 20px !important;
     margin-right: 10px;
+}
+.dialouge__opts{
+    margin-right: 10px;
+}
+.more_from__google{
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    text-transform: inherit !important;
+    border: 1px solid lightgray !important;
+}
+.drive__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black !important;
 }
