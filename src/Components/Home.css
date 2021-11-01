@@ -15,9 +15,6 @@
 .home__header__navopts{
     margin: 10px;
 }
-.app{
-    cursor: pointer;
-}
 .home__body{
     margin-top: 100px;
     display: flex;
@@ -29,7 +26,9 @@
     object-fit: contain;
     margin-bottom: 30px;
 }
-
+.apps{
+    cursor: pointer;
+}
 .search__box{
     display: flex;
     align-items: center;
