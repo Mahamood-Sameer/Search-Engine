@@ -26,6 +26,9 @@
         padding-right:10px ;
         margin-top: 10px;
     }
+    .serachpage__header__options::-webkit-scrollbar{
+        display: none;
+    }
     .searchpage__body{
         margin-left: 0;
         padding-left: 15px;
